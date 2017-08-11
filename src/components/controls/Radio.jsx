@@ -17,7 +17,7 @@ class Radio extends React.Component {
     const OPTION = this.props.library[props.option];
     return (
       <div>
-        <h3 style={props.attributes.titleStyle}>{props.attributes.title}</h3>
+        <h3 style={props.attributes.titleStyle}>{`${props.attributes.title}zob`}</h3>
         <RADIO {...props.attributes} onChange={this.onChange}>
           {this.props.control.options.map((option, index) => {
             return (
